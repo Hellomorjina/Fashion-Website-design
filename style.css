@@ -1,0 +1,648 @@
+/* All fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+      font-family: "Poppins", sans-serif;
+
+    font-family: "Bebas Neue", sans-serif;
+
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.full_wrapper {
+    max-width: 100%;
+}
+
+.wrapper {
+    width: 1234px;
+    margin: 0 auto;
+}
+
+.hedding {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.hedding_bg {
+    /* padding-top: 40px; */
+    background-color: #FFF0E3;
+}
+.hade_wrap{
+    padding-top: 40px;
+    background-color: #FFF0E3;
+}
+
+.fast_menu ul,
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.fast_menu ul li,
+.menu ul li {
+    list-style-type: none;
+    border-right: 1px solid #aaaaaa;
+}
+
+.fast_menu ul li a,
+.menu ul li a {
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #1E1C1A;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px;
+
+
+}
+
+.fast_menu ul li:last-child,
+.menu ul li:last-child {
+    border-right: none;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.fast_menu ul,
+.menu ul,
+.responsive-menu ul {
+    display: flex;
+}
+
+.icon {
+    display: none;
+}
+
+.toggle-menu-hide,
+.toggle-menu-show {
+    display: none;
+
+}
+
+.responsive-menu-hide {
+    display: none;
+}
+
+
+.moblie_menu li {
+    list-style-type: none;
+    background-color: #FFF0E3;
+    text-align: center;
+    border-bottom: 1px solid #adadad;
+    padding: 20px;
+
+}
+
+.moblie_menu li a {
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #1E1C1A;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    transition: 3s all ease;
+}
+
+.moblie_menu li:hover {
+    background-color: #D99655;
+    color: #000000;
+}
+
+
+/* start responsive-menu */
+
+@media only screen and (max-width: 600px) {
+
+    .fast_menu,
+    .menu {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .toggle-menu-hide ul,
+    .toggle-menu-show ul {
+        display: flex;
+        flex-direction: column;
+        transition: 3s all ease;
+    }
+
+    .toggle-menu-hide {
+        display: none;
+    }
+
+    .toggle-menu-show {
+        display: none;
+    }
+}
+
+/* ending responsive-menu */
+
+/* start fst_section */
+.f_text {
+
+    text-align: center;
+
+}
+
+.f_text h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 82px;
+    padding-top: 94px;
+
+}
+
+.F_btn {
+    font-family: "Bebas Neue", sans-serif;
+    padding: 15px 30px;
+    background-color: #D99655;
+    color: #fff;
+    border: none;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 105px;
+}
+
+.F_btn:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 2s all ease;
+}
+
+.F_btn img {
+    width: 21.5px;
+}
+
+.fst_section {
+    background-color: #FFF0E3;
+}
+
+.fst_section_bg {
+    background-color: #FFF0E3;
+}
+
+.G_img img {
+    margin-right: 30px;
+}
+
+.b_im::before {
+    content: "";
+    width: 100%;
+    height: 300px;
+    background-image: url("img/24.png");
+    /* background-image: url("img/24.png"); */
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -60px;
+    top: -150px;
+    z-index: 5;
+}
+
+.b_im {
+
+    position: relative;
+    z-index: 6;
+}
+
+/* .A_img::before{
+    content: "";
+    width: 100%;
+    height: 300px;
+    background-image: url("img/befor.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right:-90px;
+    top:-150px;
+    z-index: 5;
+}
+.A_img{
+    z-index:6;
+    position: relative;
+} */
+
+/* start fst_section */
+
+/* starting mid_section  */
+.mid_text h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+.mid_text p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #504C48;
+    padding-bottom: 60px;
+    padding-top: 15px;
+}
+
+.mid_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.mid_section {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ddd;
+    ;
+}
+
+/* endinging mid_section  */
+
+/* starting tree section */
+
+.tree_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.tree_bg {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+/* ending tree section */
+
+/* start for_text */
+.all_fors {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 103px;
+    background-color: #000000;
+
+
+
+}
+
+.sec_for_bg {
+    background-color: #000000;
+    /* z-index:6;
+    position: relative; */
+}
+
+.for_text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+
+}
+
+.for_text h2::before {
+    content: "";
+    width: 100%;
+    height: 300px;
+    background-image: url("img/Group 8.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 309px;
+    top: -40px;
+    z-index: 5;
+}
+
+.for_text h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #fff;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    z-index: 6;
+    position: relative;
+
+}
+
+p.big_p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+    padding-bottom: 22px;
+
+}
+
+.m_btn {
+    font-family: "Bebas Neue", sans-serif;
+    padding: 15px 30px;
+    background-color: #D99655;
+    color: #fff;
+    border: none;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 105px;
+}
+
+.m_btn:hover {
+    color: #000000;
+}
+
+/* ead for_text */
+/* slider */
+.show {
+    padding-top: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.show_slider {
+    display: inline-block;
+    animation: 9s slide infinite linear;
+
+}
+
+.show_slider img {
+    max-width: 100%;
+    padding: 0px 16.5px;
+    padding-bottom: 0;
+}
+
+@keyframes slide {
+    form {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.show:hover .show_slider {
+    animation-play-state: paused;
+
+}
+
+/* section five */
+#showtow {
+    padding-top: 50px;
+}
+
+.five_ssection {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+
+.five_text h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+.five_text p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #504C48;
+    padding-top: 15px;
+}
+
+.section_five_bg {
+    padding-bottom: 140px;
+}
+
+/* stsrt six section */
+.section_sex_bg {
+    background-color: #FFF0E3;
+    /* padding-top: 100px; */
+}
+.six_wrap{
+    background-color: #FFF0E3;
+    padding-top: 100px;
+}
+
+.sex_text {
+    width: 970px;
+    align-items: center;
+
+}
+
+.p_but {
+    margin-bottom: 0;
+}
+
+.p_but:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 2s all ease;
+}
+
+.six_img1 {
+    padding-right: 30px;
+}
+
+#showtree {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* End six section */
+.seven_section_bg {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.seven_section {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.seven_section h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px;
+
+}
+
+.seven_section p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #504C48;
+    padding-top: 15px;
+
+}
+
+/* start footer */
+.footer_bg {
+    background-color: #1E1C1A;
+}
+
+.all_footer {
+    background-color: #1E1C1A;
+}
+
+.foot_one {
+    text-align: center;
+    padding-top: 78px;
+}
+
+.foot_2 p,
+.foot_one p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFDF9;
+    padding-top: 15px;
+}
+
+.foot_2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 156px;
+    padding-top: 114px;
+    padding-bottom: 120px;
+}
+
+.foot_2 h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    color: #ffffff;
+}
+
+.foot_Tow {
+    border-bottom: 1px solid #adadad;
+    padding-bottom: 50px;
+}
+
+.foot_Three {
+    padding-top: 50px;
+}
+
+.copyright {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FFFDF9;
+    padding-top: 35px;
+    border-top: 1px solid #adadad;
+    text-align: center;
+    padding-bottom: 47px;
+
+}
+
+@media only screen and (max-width: 337px) {
+    body {
+        width: 375px;
+
+    }
+
+    .hedding_bg {
+        width: 375px;
+    }
+
+    .mid_img {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .res_img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .resp_img {
+        margin-bottom: 30px;
+    }
+
+    .G_img img {
+        margin-right: 4px;
+    }
+
+    .mid_text {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .tree_img {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .tree_img img {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .tree_img img {
+        margin-bottom: 30px;
+    }
+
+    .all_fors {
+        display: inline;
+        margin: 0 auto;
+    }
+
+    .all_fors {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
