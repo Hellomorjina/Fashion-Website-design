@@ -1,7 +1,7 @@
 
-@media only screen and (max-width: 378px){
+@media only screen and (max-width: 390px){
     .hedding{
-        width: 354px;
+        width: 390px;
         margin: auto;
     }
     .logo {
@@ -25,7 +25,7 @@
         margin-left:12px;
     }
     .G_img{
-        width:354px;
+        width:368px;
         margin:0 auto;
         text-align: center;
     }
@@ -35,7 +35,7 @@
     }
     .mid_section {
         padding-top:80.33px;
-        width:338px;
+        width:350px;
         margin: auto;
     }
     .resp_img{
@@ -46,7 +46,7 @@
     }
     .tree_img {
         display:block;
-        width:338px;
+        width:350px;
         margin: auto;
     }
     .all_fors {
@@ -112,7 +112,7 @@
         padding-bottom:80px;
     }
     .section_sex{
-        width:338px;
+        width:350px;
     }
     .six_img{
         display: flex;
@@ -120,13 +120,13 @@
     }
     .teree_sec{
         padding-top:0px;
-        width:338px;
+        width:350px;
         margin: auto;
     }
     .seven_section {
         display: block;
         padding-top:0px;
-        width:338px;
+        width:350px;
         margin: auto;
     }
     .seven_section h2 {
@@ -149,7 +149,7 @@
     .all_footer {
         background-color: #1E1C1A;
         padding-top:0px;
-        width:338px;
+        width:350px;
         margin: auto;
     }
     .foot_one {
