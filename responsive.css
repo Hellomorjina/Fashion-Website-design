@@ -1,72 +1,4 @@
-/* 
 
-@media only screen and (max-width: 337px) {
-    body {
-        width: 375px;
-
-    }
-
-    .hedding_bg {
-        width: 375px;
-    }
-
-    .mid_img {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    .res_img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .resp_img {
-        margin-bottom: 30px;
-    }
-
-    .G_img img {
-        margin-right: 4px;
-    }
-
-    .mid_text {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .tree_img {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    .tree_img img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .tree_img img {
-        margin-bottom: 30px;
-    }
-
-    .all_fors {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    .all_fors {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    }
-    .mid_img {
-        display:block;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        gap: 30px;
-    }
-} */
 @media only screen and (max-width: 378px){
     .hedding{
         width: 354px;
@@ -103,7 +35,128 @@
     }
     .mid_section {
         padding-top:80.33px;
-        width:378px;
+        width:338px;
         margin: auto;
+    }
+    .resp_img{
+        margin-bottom: 30px;
+    }
+    .mid_text p {
+        padding-bottom:40px;
+    }
+    .tree_img {
+        display:block;
+        width:338px;
+        margin: auto;
+    }
+    .all_fors {
+        display:block;
+        margin-top:48px;
+        margin:0px 20px;
+    }
+    .for_text h2 {
+        font-size:36px;
+        font-weight: 400;
+        padding-bottom:0px;
+    }
+
+    
+    .for_text p {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #ffffff;
+    }
+    p.big_p {
+        font-family: "Poppins", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #ffffff;
+        padding-bottom: 10px;
+
+    }
+    .m_btn {
+        margin-bottom:0px;
+    }
+    .show{
+        width:100px;
+    }
+    .five_ssection{
+        padding-top: 80px;
+    }
+    .five_text h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42px;
+        padding:0px 20px;
+        margin:0 auto;
+    }
+    .five_text p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #504C48;
+        padding-top:5px;
+        padding:0px 20px;
+        margin:0 auto;
+    }
+    .arrow{
+        display:none;
+    }
+    #showtow{
+        padding-top:0px;
+    }
+    .section_five_bg {
+        padding-bottom:80px;
+    }
+    .section_sex{
+        width:338px;
+    }
+    .six_img{
+        display: flex;
+        width:100%;
+    }
+    .teree_sec{
+        padding-top:0px;
+        width:338px;
+        margin: auto;
+    }
+    .seven_section {
+        display: block;
+        padding-top:0px;
+        width:338px;
+        margin: auto;
+    }
+    .seven_section h2 {
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 42px;
+    }
+    .seven_section p{
+        font-size: 16px;
+    }
+
+    .foot_2 {
+        display: block;
+    }
+    .foot_2 h4 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .all_footer {
+        background-color: #1E1C1A;
+        padding-top:0px;
+        width:338px;
+        margin: auto;
+    }
+    .foot_one {
+        text-align: center;
+        padding-top:59px;
+    }
+    .foot_2 p, .foot_one p{
+        font-size: 16px;
     }
 }
