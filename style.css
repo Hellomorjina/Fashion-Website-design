@@ -27,11 +27,8 @@ img {
     max-width: 100%;
 }
 
-.full_wrapper {
-    max-width: 100%;
-}
 
-.wrapper {
+.wrapper{
     width: 1234px;
     margin: 0 auto;
 }
@@ -137,6 +134,7 @@ img {
 }
 
 
+
 /* start responsive-menu */
 
 @media only screen and (max-width: 600px) {
@@ -215,9 +213,7 @@ img {
     background-color: #FFF0E3;
 }
 
-.G_img img {
-    margin-right: 30px;
-}
+
 
 .b_im::before {
     content: "";
@@ -257,6 +253,7 @@ img {
 /* start fst_section */
 
 /* starting mid_section  */
+
 .mid_text h2 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 56px;
@@ -393,7 +390,6 @@ p.big_p {
 /* slider */
 .show {
     padding-top: 100px;
-    overflow: hidden;
     white-space: nowrap;
     position: relative;
 }
@@ -586,63 +582,3 @@ p.big_p {
 
 }
 
-@media only screen and (max-width: 337px) {
-    body {
-        width: 375px;
-
-    }
-
-    .hedding_bg {
-        width: 375px;
-    }
-
-    .mid_img {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    .res_img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .resp_img {
-        margin-bottom: 30px;
-    }
-
-    .G_img img {
-        margin-right: 4px;
-    }
-
-    .mid_text {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .tree_img {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    .tree_img img {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    }
-
-    .tree_img img {
-        margin-bottom: 30px;
-    }
-
-    .all_fors {
-        display: inline;
-        margin: 0 auto;
-    }
-
-    .all_fors {
-        display: block;
-        margin: 0 auto;
-        width: 80%;
-    }
-}
