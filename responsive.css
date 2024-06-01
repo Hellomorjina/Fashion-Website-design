@@ -78,7 +78,8 @@
 
     }
     .m_btn {
-        margin-bottom:0px;
+        margin-bottom: 30px;
+        margin-left:20px;
     }
     .show{
         width:100px;
@@ -159,4 +160,24 @@
     .foot_2 p, .foot_one p{
         font-size: 16px;
     }
+    .sex_text {
+        width:auto;
+        align-items: center;
+    
+    }
+    .six_img1{
+        width:106px;
+        height:144px;
+        align-items: end;
+        object-fit: cover;
+    }
+    .six_img02{
+        width: 221px;
+        height:218px;
+        object-fit: cover;
+    }
+   /* .rps_img{
+      max-width:1200px;
+      height:88px;
+   } */
 }
